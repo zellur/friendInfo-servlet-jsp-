@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  height: 100%; }
+  .wrapper center {
+    overflow: hidden;
+    height: 100px;
+    background: #bdc3c7; }
+    .wrapper center h1 {
+      padding: 10px;
+      font-style: bold; }
+  .wrapper .container {
+    background: #7f8c8d;
+    overflow: hidden;
+    height: 100%; }
+    .wrapper .container h1 {
+      text-align: center;
+      font-size: 50px; }
+    .wrapper .container form {
+      text-align: center; }
+      .wrapper .container form select {
+        font-size: 30px; }
+      .wrapper .container form input {
+        font-size: 30px;
+        position: right;
+        color: red; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+<web-app>
+	
+	<servlet>
+		<servlet-name>find info</servlet-name>
+		<servlet-class>com.example.web.FriendsSelect</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>find info</servlet-name>
+		<url-pattern>/selectFriends.do</url-pattern>
+	</servlet-mapping>
+</web-app>
